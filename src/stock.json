@@ -1,0 +1,862 @@
+{
+  "data": [
+    {
+      "id": "11ec47307e69e324b53ac634eb3ab904",
+      "owner_id": "139873704",
+      "site_id": "449776521872491582",
+      "site_product_id": "7",
+      "visibility": "visible",
+      "visibility_tl": "Visible",
+      "visibility_locked": false,
+      "name": "Lighter",
+      "short_description": null,
+      "variation_type": "3",
+      "product_type": "physical",
+      "product_type_details": [],
+      "taxable": true,
+      "required_feature_to_sell": null,
+      "min_prep_time": null,
+      "site_shipping_box_id": null,
+      "site_link": "product/lighter/7",
+      "permalink": null,
+      "seo_page_description": null,
+      "seo_page_title": null,
+      "avg_rating": null,
+      "avg_rating_all": null,
+      "inventory": {
+        "total": 0,
+        "lowest": 100,
+        "enabled": false,
+        "marked_sold_out_at_all_existing_locations": false,
+        "marked_sold_out_skus_count": 0,
+        "has_location_not_tracking": true
+      },
+      "measurement_unit_abbreviation": null,
+      "price": {
+        "high": 1,
+        "high_with_modifiers": 1,
+        "high_formatted": "\u00a31.00",
+        "high_formatted_with_modifiers": "\u00a31.00",
+        "high_subunits": 100,
+        "low": 1,
+        "low_with_modifiers": 1,
+        "low_formatted": "\u00a31.00",
+        "low_formatted_with_modifiers": "\u00a31.00",
+        "low_subunits": 100,
+        "regular_high": 1,
+        "regular_high_with_modifiers": 1,
+        "regular_high_formatted": "\u00a31.00",
+        "regular_high_formatted_with_modifiers": "\u00a31.00",
+        "regular_high_subunits": 100,
+        "regular_low": 1,
+        "regular_low_with_modifiers": 1,
+        "regular_low_formatted": "\u00a31.00",
+        "regular_low_formatted_with_modifiers": "\u00a31.00",
+        "regular_low_subunits": 100
+      },
+      "on_sale": false,
+      "is_alcoholic": false,
+      "import_source": null,
+      "created_date": "2021-11-16T22:56:54+00:00",
+      "updated_date": "2021-11-17T11:01:52+00:00",
+      "badges": { "low_stock": false, "out_of_stock": false, "on_sale": false },
+      "seo_product_image_id": null,
+      "og_title": null,
+      "og_description": null,
+      "thumbnail": {
+        "data": {
+          "id": "11ec47307f199842a588ac1f6bbba82c",
+          "owner_id": "139873704",
+          "site_id": "449776521872491582",
+          "site_product_image_id": "1",
+          "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png",
+          "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png",
+          "urls": {
+            "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=80",
+            "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=160",
+            "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=320",
+            "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=640",
+            "1136": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png"
+          },
+          "width": 1136,
+          "height": 481,
+          "format": "png",
+          "created_at": "2021-11-16T22:56:55+00:00",
+          "updated_at": "2021-11-16T22:56:56+00:00",
+          "absolute_urls": {
+            "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=80",
+            "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=160",
+            "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=320",
+            "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=640",
+            "1136": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png"
+          }
+        }
+      },
+      "placeholder_image": {
+        "data": {
+          "placeholder": true,
+          "url": "/images/commerce/store-app/app/universal_product_placeholder.png",
+          "absolute_url": "cdn3.editmysite.com/images/commerce/store-app/app/universal_product_placeholder.png"
+        }
+      },
+      "images": {
+        "data": [
+          {
+            "id": "11ec47307f199842a588ac1f6bbba82c",
+            "owner_id": "139873704",
+            "site_id": "449776521872491582",
+            "site_product_image_id": "1",
+            "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png",
+            "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png",
+            "urls": {
+              "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=80",
+              "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=160",
+              "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=320",
+              "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=640",
+              "1136": "/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png"
+            },
+            "width": 1136,
+            "height": 481,
+            "format": "png",
+            "created_at": "2021-11-16T22:56:55+00:00",
+            "updated_at": "2021-11-16T22:56:56+00:00",
+            "absolute_urls": {
+              "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=80",
+              "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=160",
+              "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=320",
+              "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png?width=640",
+              "1136": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png"
+            }
+          }
+        ]
+      },
+      "media_files": { "data": [] }
+    },
+    {
+      "id": "11ec4730665e6dfe9114be68adeb18ae",
+      "owner_id": "139873704",
+      "site_id": "449776521872491582",
+      "site_product_id": "6",
+      "visibility": "visible",
+      "visibility_tl": "Visible",
+      "visibility_locked": false,
+      "name": "Hip Flask",
+      "short_description": null,
+      "variation_type": "3",
+      "product_type": "physical",
+      "product_type_details": [],
+      "taxable": true,
+      "required_feature_to_sell": null,
+      "min_prep_time": null,
+      "site_shipping_box_id": null,
+      "site_link": "product/hip-flask/6",
+      "permalink": null,
+      "seo_page_description": null,
+      "seo_page_title": null,
+      "avg_rating": null,
+      "avg_rating_all": null,
+      "inventory": {
+        "total": 0,
+        "lowest": 100,
+        "enabled": false,
+        "marked_sold_out_at_all_existing_locations": false,
+        "marked_sold_out_skus_count": 0,
+        "has_location_not_tracking": true
+      },
+      "measurement_unit_abbreviation": null,
+      "price": {
+        "high": 10,
+        "high_with_modifiers": 10,
+        "high_formatted": "\u00a310.00",
+        "high_formatted_with_modifiers": "\u00a310.00",
+        "high_subunits": 1000,
+        "low": 10,
+        "low_with_modifiers": 10,
+        "low_formatted": "\u00a310.00",
+        "low_formatted_with_modifiers": "\u00a310.00",
+        "low_subunits": 1000,
+        "regular_high": 10,
+        "regular_high_with_modifiers": 10,
+        "regular_high_formatted": "\u00a310.00",
+        "regular_high_formatted_with_modifiers": "\u00a310.00",
+        "regular_high_subunits": 1000,
+        "regular_low": 10,
+        "regular_low_with_modifiers": 10,
+        "regular_low_formatted": "\u00a310.00",
+        "regular_low_formatted_with_modifiers": "\u00a310.00",
+        "regular_low_subunits": 1000
+      },
+      "on_sale": false,
+      "is_alcoholic": false,
+      "import_source": null,
+      "created_date": "2021-11-16T22:56:14+00:00",
+      "updated_date": "2021-11-17T10:46:25+00:00",
+      "badges": { "low_stock": false, "out_of_stock": false, "on_sale": false },
+      "seo_product_image_id": null,
+      "og_title": null,
+      "og_description": null,
+      "thumbnail": {
+        "data": {
+          "id": "11ec47306670242aa588ac1f6bbba82c",
+          "owner_id": "139873704",
+          "site_id": "449776521872491582",
+          "site_product_image_id": "1",
+          "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png",
+          "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png",
+          "urls": {
+            "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=80",
+            "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=160",
+            "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=320",
+            "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=640",
+            "841": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png"
+          },
+          "width": 841,
+          "height": 1280,
+          "format": "png",
+          "created_at": "2021-11-16T22:56:14+00:00",
+          "updated_at": "2021-11-16T22:56:14+00:00",
+          "absolute_urls": {
+            "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=80",
+            "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=160",
+            "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=320",
+            "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=640",
+            "841": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png"
+          }
+        }
+      },
+      "placeholder_image": {
+        "data": {
+          "placeholder": true,
+          "url": "/images/commerce/store-app/app/universal_product_placeholder.png",
+          "absolute_url": "cdn3.editmysite.com/images/commerce/store-app/app/universal_product_placeholder.png"
+        }
+      },
+      "images": {
+        "data": [
+          {
+            "id": "11ec47306670242aa588ac1f6bbba82c",
+            "owner_id": "139873704",
+            "site_id": "449776521872491582",
+            "site_product_image_id": "1",
+            "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png",
+            "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png",
+            "urls": {
+              "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=80",
+              "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=160",
+              "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=320",
+              "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=640",
+              "841": "/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png"
+            },
+            "width": 841,
+            "height": 1280,
+            "format": "png",
+            "created_at": "2021-11-16T22:56:14+00:00",
+            "updated_at": "2021-11-16T22:56:14+00:00",
+            "absolute_urls": {
+              "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=80",
+              "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=160",
+              "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=320",
+              "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png?width=640",
+              "841": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png"
+            }
+          }
+        ]
+      },
+      "media_files": { "data": [] }
+    },
+    {
+      "id": "11ec47304cc24a64ad159e65b29705f7",
+      "owner_id": "139873704",
+      "site_id": "449776521872491582",
+      "site_product_id": "5",
+      "visibility": "visible",
+      "visibility_tl": "Visible",
+      "visibility_locked": false,
+      "name": "Headband",
+      "short_description": null,
+      "variation_type": "3",
+      "product_type": "physical",
+      "product_type_details": [],
+      "taxable": true,
+      "required_feature_to_sell": null,
+      "min_prep_time": null,
+      "site_shipping_box_id": null,
+      "site_link": "product/headband/5",
+      "permalink": null,
+      "seo_page_description": null,
+      "seo_page_title": null,
+      "avg_rating": null,
+      "avg_rating_all": null,
+      "inventory": {
+        "total": 0,
+        "lowest": 100,
+        "enabled": false,
+        "marked_sold_out_at_all_existing_locations": false,
+        "marked_sold_out_skus_count": 0,
+        "has_location_not_tracking": true
+      },
+      "measurement_unit_abbreviation": null,
+      "price": {
+        "high": 12,
+        "high_with_modifiers": 12,
+        "high_formatted": "\u00a312.00",
+        "high_formatted_with_modifiers": "\u00a312.00",
+        "high_subunits": 1200,
+        "low": 12,
+        "low_with_modifiers": 12,
+        "low_formatted": "\u00a312.00",
+        "low_formatted_with_modifiers": "\u00a312.00",
+        "low_subunits": 1200,
+        "regular_high": 12,
+        "regular_high_with_modifiers": 12,
+        "regular_high_formatted": "\u00a312.00",
+        "regular_high_formatted_with_modifiers": "\u00a312.00",
+        "regular_high_subunits": 1200,
+        "regular_low": 12,
+        "regular_low_with_modifiers": 12,
+        "regular_low_formatted": "\u00a312.00",
+        "regular_low_formatted_with_modifiers": "\u00a312.00",
+        "regular_low_subunits": 1200
+      },
+      "on_sale": false,
+      "is_alcoholic": false,
+      "import_source": null,
+      "created_date": "2021-11-16T22:55:31+00:00",
+      "updated_date": "2021-11-17T10:46:25+00:00",
+      "badges": { "low_stock": false, "out_of_stock": false, "on_sale": false },
+      "seo_product_image_id": null,
+      "og_title": null,
+      "og_description": null,
+      "thumbnail": {
+        "data": {
+          "id": "11ec47304d7388f3a588ac1f6bbba82c",
+          "owner_id": "139873704",
+          "site_id": "449776521872491582",
+          "site_product_image_id": "1",
+          "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png",
+          "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png",
+          "urls": {
+            "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=80",
+            "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=160",
+            "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=320",
+            "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=640",
+            "946": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png"
+          },
+          "width": 946,
+          "height": 753,
+          "format": "png",
+          "created_at": "2021-11-16T22:55:32+00:00",
+          "updated_at": "2021-11-16T22:55:32+00:00",
+          "absolute_urls": {
+            "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=80",
+            "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=160",
+            "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=320",
+            "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=640",
+            "946": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png"
+          }
+        }
+      },
+      "placeholder_image": {
+        "data": {
+          "placeholder": true,
+          "url": "/images/commerce/store-app/app/universal_product_placeholder.png",
+          "absolute_url": "cdn3.editmysite.com/images/commerce/store-app/app/universal_product_placeholder.png"
+        }
+      },
+      "images": {
+        "data": [
+          {
+            "id": "11ec47304d7388f3a588ac1f6bbba82c",
+            "owner_id": "139873704",
+            "site_id": "449776521872491582",
+            "site_product_image_id": "1",
+            "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png",
+            "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png",
+            "urls": {
+              "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=80",
+              "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=160",
+              "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=320",
+              "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=640",
+              "946": "/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png"
+            },
+            "width": 946,
+            "height": 753,
+            "format": "png",
+            "created_at": "2021-11-16T22:55:32+00:00",
+            "updated_at": "2021-11-16T22:55:32+00:00",
+            "absolute_urls": {
+              "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=80",
+              "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=160",
+              "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=320",
+              "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png?width=640",
+              "946": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png"
+            }
+          }
+        ]
+      },
+      "media_files": { "data": [] }
+    },
+    {
+      "id": "11ec4730241ee4e6a5079e65b29705f7",
+      "owner_id": "139873704",
+      "site_id": "449776521872491582",
+      "site_product_id": "4",
+      "visibility": "visible",
+      "visibility_tl": "Visible",
+      "visibility_locked": false,
+      "name": "Bucket Hat",
+      "short_description": null,
+      "variation_type": "3",
+      "product_type": "physical",
+      "product_type_details": [],
+      "taxable": false,
+      "required_feature_to_sell": null,
+      "min_prep_time": null,
+      "site_shipping_box_id": null,
+      "site_link": "product/bucket-hat/4",
+      "permalink": null,
+      "seo_page_description": null,
+      "seo_page_title": null,
+      "avg_rating": null,
+      "avg_rating_all": null,
+      "inventory": {
+        "total": 0,
+        "lowest": 100,
+        "enabled": false,
+        "marked_sold_out_at_all_existing_locations": false,
+        "marked_sold_out_skus_count": 0,
+        "has_location_not_tracking": true
+      },
+      "measurement_unit_abbreviation": null,
+      "price": {
+        "high": 15,
+        "high_with_modifiers": 15,
+        "high_formatted": "\u00a315.00",
+        "high_formatted_with_modifiers": "\u00a315.00",
+        "high_subunits": 1500,
+        "low": 15,
+        "low_with_modifiers": 15,
+        "low_formatted": "\u00a315.00",
+        "low_formatted_with_modifiers": "\u00a315.00",
+        "low_subunits": 1500,
+        "regular_high": 15,
+        "regular_high_with_modifiers": 15,
+        "regular_high_formatted": "\u00a315.00",
+        "regular_high_formatted_with_modifiers": "\u00a315.00",
+        "regular_high_subunits": 1500,
+        "regular_low": 15,
+        "regular_low_with_modifiers": 15,
+        "regular_low_formatted": "\u00a315.00",
+        "regular_low_formatted_with_modifiers": "\u00a315.00",
+        "regular_low_subunits": 1500
+      },
+      "on_sale": false,
+      "is_alcoholic": false,
+      "import_source": null,
+      "created_date": "2021-11-16T22:54:23+00:00",
+      "updated_date": "2021-11-17T10:46:25+00:00",
+      "badges": { "low_stock": false, "out_of_stock": false, "on_sale": false },
+      "seo_product_image_id": null,
+      "og_title": null,
+      "og_description": null,
+      "thumbnail": {
+        "data": {
+          "id": "11ec4730242ed442a588ac1f6bbba82c",
+          "owner_id": "139873704",
+          "site_id": "449776521872491582",
+          "site_product_image_id": "1",
+          "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+          "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+          "urls": {
+            "1280": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+            "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=640",
+            "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=320",
+            "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=160",
+            "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=80"
+          },
+          "width": 1280,
+          "height": 853,
+          "format": "png",
+          "created_at": "2021-11-16T22:54:23+00:00",
+          "updated_at": "2021-11-16T22:54:23+00:00",
+          "absolute_urls": {
+            "1280": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+            "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=640",
+            "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=320",
+            "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=160",
+            "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=80"
+          }
+        }
+      },
+      "placeholder_image": {
+        "data": {
+          "placeholder": true,
+          "url": "/images/commerce/store-app/app/universal_product_placeholder.png",
+          "absolute_url": "cdn3.editmysite.com/images/commerce/store-app/app/universal_product_placeholder.png"
+        }
+      },
+      "images": {
+        "data": [
+          {
+            "id": "11ec4730242ed442a588ac1f6bbba82c",
+            "owner_id": "139873704",
+            "site_id": "449776521872491582",
+            "site_product_image_id": "1",
+            "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+            "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+            "urls": {
+              "1280": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+              "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=640",
+              "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=320",
+              "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=160",
+              "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=80"
+            },
+            "width": 1280,
+            "height": 853,
+            "format": "png",
+            "created_at": "2021-11-16T22:54:23+00:00",
+            "updated_at": "2021-11-16T22:54:23+00:00",
+            "absolute_urls": {
+              "1280": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+              "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=640",
+              "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=320",
+              "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=160",
+              "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png?width=80"
+            }
+          }
+        ]
+      },
+      "media_files": { "data": [] }
+    },
+    {
+      "id": "11ec47300874c4a4978ec2194d759a9a",
+      "owner_id": "139873704",
+      "site_id": "449776521872491582",
+      "site_product_id": "3",
+      "visibility": "visible",
+      "visibility_tl": "Visible",
+      "visibility_locked": false,
+      "name": "Long Sleeve Tee",
+      "short_description": "S 34/36\" M 38/40\" L 42/44\" XL 46/48\" 2XL 50/52\"",
+      "variation_type": "3",
+      "product_type": "physical",
+      "product_type_details": [],
+      "taxable": false,
+      "required_feature_to_sell": null,
+      "min_prep_time": null,
+      "site_shipping_box_id": null,
+      "site_link": "product/long-sleeve-tee/3",
+      "permalink": null,
+      "seo_page_description": null,
+      "seo_page_title": null,
+      "avg_rating": null,
+      "avg_rating_all": null,
+      "inventory": {
+        "total": 149,
+        "lowest": 29,
+        "enabled": true,
+        "marked_sold_out_at_all_existing_locations": false,
+        "marked_sold_out_skus_count": 0,
+        "has_location_not_tracking": false
+      },
+      "measurement_unit_abbreviation": null,
+      "price": {
+        "high": 17.5,
+        "high_with_modifiers": 17.5,
+        "high_formatted": "\u00a317.50",
+        "high_formatted_with_modifiers": "\u00a317.50",
+        "high_subunits": 1750,
+        "low": 17.5,
+        "low_with_modifiers": 17.5,
+        "low_formatted": "\u00a317.50",
+        "low_formatted_with_modifiers": "\u00a317.50",
+        "low_subunits": 1750,
+        "regular_high": 17.5,
+        "regular_high_with_modifiers": 17.5,
+        "regular_high_formatted": "\u00a317.50",
+        "regular_high_formatted_with_modifiers": "\u00a317.50",
+        "regular_high_subunits": 1750,
+        "regular_low": 17.5,
+        "regular_low_with_modifiers": 17.5,
+        "regular_low_formatted": "\u00a317.50",
+        "regular_low_formatted_with_modifiers": "\u00a317.50",
+        "regular_low_subunits": 1750
+      },
+      "on_sale": false,
+      "is_alcoholic": false,
+      "import_source": null,
+      "created_date": "2021-11-16T22:53:36+00:00",
+      "updated_date": "2021-11-17T16:26:40+00:00",
+      "badges": { "low_stock": false, "out_of_stock": false, "on_sale": false },
+      "seo_product_image_id": null,
+      "og_title": null,
+      "og_description": null,
+      "thumbnail": {
+        "data": {
+          "id": "11ec478d5d618b69a588ac1f6bbba82c",
+          "owner_id": "139873704",
+          "site_id": "449776521872491582",
+          "site_product_image_id": "2",
+          "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg",
+          "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg",
+          "urls": {
+            "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=80",
+            "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=160",
+            "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=320",
+            "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=640",
+            "1280": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=1280",
+            "1500": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg"
+          },
+          "width": 1500,
+          "height": 1500,
+          "format": "jpeg",
+          "created_at": "2021-11-17T10:01:42+00:00",
+          "updated_at": "2021-11-17T10:01:42+00:00",
+          "absolute_urls": {
+            "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=80",
+            "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=160",
+            "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=320",
+            "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=640",
+            "1280": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=1280",
+            "1500": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg"
+          }
+        }
+      },
+      "placeholder_image": {
+        "data": {
+          "placeholder": true,
+          "url": "/images/commerce/store-app/app/universal_product_placeholder.png",
+          "absolute_url": "cdn3.editmysite.com/images/commerce/store-app/app/universal_product_placeholder.png"
+        }
+      },
+      "images": {
+        "data": [
+          {
+            "id": "11ec478d5d618b69a588ac1f6bbba82c",
+            "owner_id": "139873704",
+            "site_id": "449776521872491582",
+            "site_product_image_id": "2",
+            "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg",
+            "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg",
+            "urls": {
+              "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=80",
+              "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=160",
+              "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=320",
+              "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=640",
+              "1280": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=1280",
+              "1500": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg"
+            },
+            "width": 1500,
+            "height": 1500,
+            "format": "jpeg",
+            "created_at": "2021-11-17T10:01:42+00:00",
+            "updated_at": "2021-11-17T10:01:42+00:00",
+            "absolute_urls": {
+              "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=80",
+              "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=160",
+              "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=320",
+              "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=640",
+              "1280": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg?width=1280",
+              "1500": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg"
+            }
+          },
+          {
+            "id": "11ec478d5e7a55bda588ac1f6bbba82c",
+            "owner_id": "139873704",
+            "site_id": "449776521872491582",
+            "site_product_image_id": "3",
+            "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg",
+            "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg",
+            "urls": {
+              "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=80",
+              "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=160",
+              "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=320",
+              "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=640",
+              "1280": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=1280",
+              "1500": "/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg"
+            },
+            "width": 1500,
+            "height": 1500,
+            "format": "jpeg",
+            "created_at": "2021-11-17T10:01:44+00:00",
+            "updated_at": "2021-11-17T10:01:44+00:00",
+            "absolute_urls": {
+              "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=80",
+              "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=160",
+              "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=320",
+              "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=640",
+              "1280": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg?width=1280",
+              "1500": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i3_w1500.jpeg"
+            }
+          }
+        ]
+      },
+      "media_files": { "data": [] }
+    },
+    {
+      "id": "11ec472f8d89ef26a86dc634eb3ab904",
+      "owner_id": "139873704",
+      "site_id": "449776521872491582",
+      "site_product_id": "2",
+      "visibility": "visible",
+      "visibility_tl": "Visible",
+      "visibility_locked": false,
+      "name": "Hoodie",
+      "short_description": "S 34/36\" M 38/40\" L 42/44\" XL 46/48\" 2XL 50/52\u201d",
+      "variation_type": "3",
+      "product_type": "physical",
+      "product_type_details": [],
+      "taxable": false,
+      "required_feature_to_sell": null,
+      "min_prep_time": null,
+      "site_shipping_box_id": null,
+      "site_link": "product/hoodie/2",
+      "permalink": null,
+      "seo_page_description": null,
+      "seo_page_title": null,
+      "avg_rating": null,
+      "avg_rating_all": null,
+      "inventory": {
+        "total": 146,
+        "lowest": 27,
+        "enabled": true,
+        "marked_sold_out_at_all_existing_locations": false,
+        "marked_sold_out_skus_count": 0,
+        "has_location_not_tracking": false
+      },
+      "measurement_unit_abbreviation": null,
+      "price": {
+        "high": 25,
+        "high_with_modifiers": 25,
+        "high_formatted": "\u00a325.00",
+        "high_formatted_with_modifiers": "\u00a325.00",
+        "high_subunits": 2500,
+        "low": 25,
+        "low_with_modifiers": 25,
+        "low_formatted": "\u00a325.00",
+        "low_formatted_with_modifiers": "\u00a325.00",
+        "low_subunits": 2500,
+        "regular_high": 25,
+        "regular_high_with_modifiers": 25,
+        "regular_high_formatted": "\u00a325.00",
+        "regular_high_formatted_with_modifiers": "\u00a325.00",
+        "regular_high_subunits": 2500,
+        "regular_low": 25,
+        "regular_low_with_modifiers": 25,
+        "regular_low_formatted": "\u00a325.00",
+        "regular_low_formatted_with_modifiers": "\u00a325.00",
+        "regular_low_subunits": 2500
+      },
+      "on_sale": false,
+      "is_alcoholic": false,
+      "import_source": null,
+      "created_date": "2021-11-16T22:50:10+00:00",
+      "updated_date": "2021-11-17T18:38:08+00:00",
+      "badges": { "low_stock": false, "out_of_stock": false, "on_sale": false },
+      "seo_product_image_id": null,
+      "og_title": null,
+      "og_description": null,
+      "thumbnail": {
+        "data": {
+          "id": "11ec478d92a4ec63a588ac1f6bbba82c",
+          "owner_id": "139873704",
+          "site_id": "449776521872491582",
+          "site_product_image_id": "2",
+          "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg",
+          "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg",
+          "urls": {
+            "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=80",
+            "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=160",
+            "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=320",
+            "546": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg"
+          },
+          "width": 546,
+          "height": 665,
+          "format": "jpeg",
+          "created_at": "2021-11-17T10:03:11+00:00",
+          "updated_at": "2021-11-17T10:03:12+00:00",
+          "absolute_urls": {
+            "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=80",
+            "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=160",
+            "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=320",
+            "546": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg"
+          }
+        }
+      },
+      "placeholder_image": {
+        "data": {
+          "placeholder": true,
+          "url": "/images/commerce/store-app/app/universal_product_placeholder.png",
+          "absolute_url": "cdn3.editmysite.com/images/commerce/store-app/app/universal_product_placeholder.png"
+        }
+      },
+      "images": {
+        "data": [
+          {
+            "id": "11ec478d92a4ec63a588ac1f6bbba82c",
+            "owner_id": "139873704",
+            "site_id": "449776521872491582",
+            "site_product_image_id": "2",
+            "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg",
+            "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg",
+            "urls": {
+              "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=80",
+              "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=160",
+              "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=320",
+              "546": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg"
+            },
+            "width": 546,
+            "height": 665,
+            "format": "jpeg",
+            "created_at": "2021-11-17T10:03:11+00:00",
+            "updated_at": "2021-11-17T10:03:12+00:00",
+            "absolute_urls": {
+              "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=80",
+              "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=160",
+              "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg?width=320",
+              "546": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg"
+            }
+          },
+          {
+            "id": "11ec478d933d5af9a588ac1f6bbba82c",
+            "owner_id": "139873704",
+            "site_id": "449776521872491582",
+            "site_product_image_id": "3",
+            "url": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg",
+            "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg",
+            "urls": {
+              "80": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg?width=80",
+              "160": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg?width=160",
+              "320": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg?width=320",
+              "640": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg?width=640",
+              "886": "/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg"
+            },
+            "width": 886,
+            "height": 1024,
+            "format": "jpeg",
+            "created_at": "2021-11-17T10:03:12+00:00",
+            "updated_at": "2021-11-17T10:03:13+00:00",
+            "absolute_urls": {
+              "80": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg?width=80",
+              "160": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg?width=160",
+              "320": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg?width=320",
+              "640": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg?width=640",
+              "886": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i3_w886.jpeg"
+            }
+          }
+        ]
+      },
+      "media_files": { "data": [] }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total": 6,
+      "count": 6,
+      "per_page": 60,
+      "current_page": 1,
+      "total_pages": 1,
+      "links": []
+    }
+  }
+}
