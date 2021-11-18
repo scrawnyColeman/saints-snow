@@ -8,7 +8,7 @@ const Product = ({ name, price, mainImg}) => {
         <div onClick={sendToPay}>
             {name}
             {price.high}
-            <img width={128} src={mainImg}/>
+            <img width={128} src={mainImg} alt={name}/>
         </div>
     )
 }
