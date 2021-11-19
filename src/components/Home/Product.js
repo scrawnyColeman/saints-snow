@@ -8,7 +8,15 @@ import {
 } from "styled-dropdown-component";
 
 import cancel from "../../assets/addSymbol.svg";
+import arrow from "../../assets/tabArrow.svg";
 
+const sizeMap = {
+  S: "Small",
+  M: "Medium",
+  L: "Large",
+  XL: "Extra Large",
+  "2XL": "XXLarge",
+};
 const StyledCard = styled.div`
   display: flex;
   flex-direction: column;
@@ -85,8 +93,19 @@ const StyledDropdownWrapper = styled.div`
 `;
 
 const StyledDropdown = styled(Dropdown)`
-  width: 100px;
-  border-radius: 10px;
+  position: static;
+  width: 152px;
+  height: 30px;
+
+  /* white */
+
+  background: #ffffff;
+  /* dark silver */
+
+  border: 1px solid #bdc3c7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 4px 16px;
 `;
 
 const StyledImage = styled.img`
@@ -134,6 +153,10 @@ const StyledButton = styled.button`
   align-items: center;
   padding: 7px 16px;
 
+  font-weight: 600;
+
+  font-size: 12px;
+
   width: 100%;
   height: 30px;
 
@@ -152,7 +175,6 @@ const StyledButton = styled.button`
 `;
 
 const StyledCancelButton = styled.button`
-  /* Auto Layout */
   cursor: pointer;
 
   display: flex;
@@ -164,6 +186,8 @@ const StyledCancelButton = styled.button`
   width: 32px;
   height: 32px;
   margin-right: 8px;
+
+  border: transparent;
 `;
 
 const StyledButtonWrapper = styled.div`
@@ -211,18 +235,39 @@ const Product = ({ name, price, mainImg, sendToProduct, sizes }) => {
             <StyledSizing />
             <StyledDropdownWrapper>
               <StyledDropdown>
-                <button onClick={handleOpenCloseDropdown}>
-                  {selectedSize || "Select a sizes"}
+                <button
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                    backgroundColor: "transparent",
+                    border: "none",
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    fontSize: "16px",
+                    fontWeight: 400,
+                    cursor: "pointer",
+                  }}
+                  onClick={handleOpenCloseDropdown}
+                >
+                  {sizeMap[selectedSize] || "Select a size"}
+                  <img src={arrow} alt="arrow" />
                 </button>
-                <DropdownMenu hidden={isHidden}>
+                <DropdownMenu hidden={isHidden} style={{ minWidth: "152px" }}>
                   {sizes.map((size) => (
                     <DropdownItem
                       onClick={() => {
                         setSelectedSize(size.size);
                         setHidden(true);
                       }}
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        cursor: "pointer",
+                      }}
                     >
-                      {size.size}: {size.value}
+                      <span>{size.size}:</span>
+                      <span>({size.value})</span>
                     </DropdownItem>
                   ))}
                 </DropdownMenu>
