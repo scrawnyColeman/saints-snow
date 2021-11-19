@@ -6,7 +6,12 @@ const StyledFooter = styled.div`
 `;
 
 const Header = () => {
-  return <StyledFooter>St Andrews Snowsports</StyledFooter>;
+  return (
+    <StyledFooter>
+      All items are <b>store pickup</b>. Collected at: Univerisity of St Andrews
+      Snowsports. University Park, St Andrews, SCT
+    </StyledFooter>
+  );
 };
 
 export default Header;
