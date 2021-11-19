@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-
-import logo from "../../src/assets/logo.jpeg";
+import Header from "./Header";
+import Routing from "./Routing";
 
 const StyledContainer = styled.div`
   width: 60%;
@@ -12,18 +12,14 @@ const StyledContainer = styled.div`
   }
 `;
 
-const StyledHeader = styled.div`
-  padding: 1rem;
-`;
-
-const PageLayout = ({ children }) => {
+const PageLayout = () => {
   return (
-    <StyledContainer>
-      <StyledHeader>
-        <img src={logo} width={80} />
-      </StyledHeader>
-      {children}
-    </StyledContainer>
+    <>
+      <Header />
+      <StyledContainer>
+        <Routing />
+      </StyledContainer>
+    </>
   );
 };
 

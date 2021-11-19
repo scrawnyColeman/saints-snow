@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 import styled from "styled-components";
 
@@ -78,8 +79,11 @@ const StyledName = styled.div`
 `;
 
 const Product = ({ name, price, mainImg }) => {
+  const router = useHistory();
+
   const sendToPay = () => {
-    window.location.href = `https://trilo.us/saintssnow/${price.high}`;
+    router.push(`item/${("" + name).toLowerCase()}`);
+    // window.location.href = `https://trilo.us/saintssnow/${price.high}`;
   };
   return (
     <StyledWrapper>
