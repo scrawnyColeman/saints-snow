@@ -59,9 +59,6 @@ const StyledImageWrapper = styled.div`
   @media (max-width: 968px) {
     height: 300px;
   }
-  @media (max-width: 600px) {
-    height: 400px;
-  }
 
   border-radius: 10px;
   /* overflow: scroll; */
