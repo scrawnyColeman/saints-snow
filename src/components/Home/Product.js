@@ -212,7 +212,7 @@ const Product = ({ name, price, mainImg, sendToProduct, sizes }) => {
     }
 
     if (!!sizes.length && selectedSize) {
-      sendToProduct(price, `${name}-${selectedSize}`);
+      sendToProduct(price, `${name} - ${selectedSize}`);
     } else {
       sendToProduct(price, `${name}`);
     }
