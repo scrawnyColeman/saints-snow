@@ -272,9 +272,10 @@ const Product = ({ name, price, mainImg, sendToProduct, sizes }) => {
             </StyledDropdownWrapper>
           </>
         )}
+        {/* Scale all images down by a factor of 10. Default is in range of 500 - 1000 */}
         <StyledImage
-          width={width}
-          height={height}
+          width={width / 10}
+          height={height / 10}
           src={absolute_url}
           alt={name}
           isShort={width / height < aspectRatio}
