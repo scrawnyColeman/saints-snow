@@ -19,13 +19,21 @@ const StyledCard = styled.div`
   display: flex;
   flex-direction: column;
 
-  border-radius: 12px;
+  cursor: pointer;
 
-  box-shadow: 0 2px 8px 0 #4b4b4b;
+  padding: 1rem;
+
+  border-radius: 1rem;
+
+  box-shadow: 0 0 4px 0 #00bfa5;
 
   width: 80%;
   height: 28rem;
   overflow: hidden;
+
+  @media (max-width: 968px) {
+    width: 90%;
+  }
 `;
 
 const StyledImageWrapper = styled.div`
@@ -46,9 +54,27 @@ const StyledImage = styled.img`
   width: 100%;
 `;
 
-const StyledContent = styled.div`
+const StyledTextWrapper = styled.div`
   height: 4rem;
   width: 100%;
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+`;
+
+const StyledPrice = styled.div`
+  text-align: center;
+  margin-top: 0.5rem;
+
+  font-weight: bold;
+`;
+
+const StyledName = styled.div`
+  font-size: 1.25rem;
+
+  text-align: center;
+  margin-top: 0.5rem;
 `;
 
 const Product = ({ name, price, mainImg }) => {
@@ -61,10 +87,10 @@ const Product = ({ name, price, mainImg }) => {
         <StyledImageWrapper>
           <StyledImage width={128} src={mainImg} alt={name} />
         </StyledImageWrapper>
-        <StyledContent>
-          {name}
-          {price.high}
-        </StyledContent>
+        <StyledTextWrapper>
+          <StyledName>{name}</StyledName>
+          <StyledPrice>£{Number(price.high).toFixed(2)}</StyledPrice>
+        </StyledTextWrapper>
       </StyledCard>
     </StyledWrapper>
   );
