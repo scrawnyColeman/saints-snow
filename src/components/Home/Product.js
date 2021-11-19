@@ -141,6 +141,9 @@ const StyledName = styled.div`
 `;
 
 const StyledButton = styled.button`
+  &:disabled {
+    opacity: 0.6;
+  }
   /* Auto Layout */
   cursor: pointer;
 
@@ -210,8 +213,10 @@ const Product = ({ name, price, mainImg, sendToProduct, sizes }) => {
 
     if (!!sizes.length && selectedSize) {
       sendToProduct(price, `${name} - ${selectedSize}`);
-    } else {
+    } else if (!sizes.length) {
       sendToProduct(price, `${name}`);
+    } else {
+      // do nothing
     }
   };
 
@@ -297,7 +302,12 @@ const Product = ({ name, price, mainImg, sendToProduct, sizes }) => {
             <img src={cancel} alt="cancel" />
           </StyledCancelButton>
         )}
-        <StyledButton onClick={handleClick}>{buttonText}</StyledButton>
+        <StyledButton
+          onClick={handleClick}
+          disabled={!!sizes.length && isSizeShown && !selectedSize}
+        >
+          {buttonText}
+        </StyledButton>
       </StyledButtonWrapper>
     </StyledCard>
   );
