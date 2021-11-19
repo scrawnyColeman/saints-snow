@@ -53,7 +53,7 @@ const StyledContent = styled.div`
 
 const Product = ({ name, price, mainImg }) => {
   const sendToPay = () => {
-    window.location.href = `https://trilo.us/saintssnows/${price.high}`;
+    window.location.href = `https://trilo.us/saintssnow/${price.high}`;
   };
   return (
     <StyledWrapper>
