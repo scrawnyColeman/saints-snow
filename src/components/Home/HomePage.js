@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 import Product from "./Product";
@@ -13,12 +13,21 @@ const StyledWrapper = styled.div`
 `;
 
 const Products = () => {
-  const [product, setProduct] = useState(initialState);
-  const sendToProduct = () => {};
+  const [param, setParam] = useState(null);
+  const sendToProduct = () => {
+    if (param) {
+      window.location.href = `https://trilo.us/saintssnow/?${param}`;
+    }
+  };
   return (
     <StyledWrapper>
       {stock.data.map((item) => (
-        <Product name={item.name} price={item.price} mainImg={item.thumbnail} />
+        <Product
+          sendToProduct={sendToProduct}
+          name={item.name}
+          price={item.price}
+          mainImg={item.thumbnail}
+        />
       ))}
       <div style={{ height: "200px" }}></div>
     </StyledWrapper>

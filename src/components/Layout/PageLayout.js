@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import Header from "./Header";
 import Footer from "./Footer";
-import Routing from "./Routing";
+import HomePage from "../Home/HomePage";
 
 const StyledContainer = styled.div`
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 
   @media (max-width: 968px) {
@@ -13,16 +13,14 @@ const StyledContainer = styled.div`
   }
 `;
 
-const PageLayout = () => {
-  return (
-    <>
-      <Header />
-      <StyledContainer>
-        <Routing />
-      </StyledContainer>
-      <Footer />
-    </>
-  );
-};
+const PageLayout = () => (
+  <>
+    <Header />
+    <StyledContainer>
+      <HomePage />
+    </StyledContainer>
+    <Footer />
+  </>
+);
 
 export default PageLayout;
