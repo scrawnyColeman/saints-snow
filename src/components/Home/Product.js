@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 
 import styled from "styled-components";
+import {
+  Dropdown,
+  DropdownItem,
+  DropdownMenu,
+} from "styled-dropdown-component";
+
+import cancel from "../../assets/addSymbol.svg";
 
 const StyledCard = styled.div`
   display: flex;
@@ -49,23 +56,44 @@ const StyledImageWrapper = styled.div`
   }
 
   border-radius: 10px;
-  overflow: scroll;
+  /* overflow: scroll; */
+`;
+
+const StyledSizing = styled.div`
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  bottom: 0;
+  right: 0;
+
+  z-index: 5;
+
+  border-radius: 10px;
+
+  opacity: 0.5;
+  background-color: #11171c;
+`;
+const StyledDropdownWrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 10;
+
+  border-radius: 10px;
+`;
+
+const StyledDropdown = styled(Dropdown)`
+  width: 100px;
+  border-radius: 10px;
 `;
 
 const StyledImage = styled.img`
-  @media (min-width: 968px) {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-
-    height: auto;
-    width: auto;
-    max-width: 100%;
-  }
-  @media (max-width: 968px) {
-    height: 100%;
-    width: auto;
-  }
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
 `;
 
 const StyledTextWrapper = styled.div`
@@ -106,8 +134,6 @@ const StyledButton = styled.button`
   align-items: center;
   padding: 7px 16px;
 
-  margin-top: 1rem;
-
   width: 100%;
   height: 30px;
 
@@ -125,20 +151,85 @@ const StyledButton = styled.button`
   color: white;
 `;
 
-const Product = ({ name, price, mainImg, sendToProduct }) => {
-  const [product, setProduct] = useState(null);
-  const { absolute_url, width, height } = mainImg.data;
+const StyledCancelButton = styled.button`
+  /* Auto Layout */
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+`;
+
+const StyledButtonWrapper = styled.div`
+  width: 100%;
+  display: flex;
+
+  margin-top: 1rem;
+`;
+
+const Product = ({ name, price, mainImg, sendToProduct, sizes }) => {
+  const [selectedSize, setSelectedSize] = useState(null);
+  const [isHidden, setHidden] = useState(true);
+  const [isSizeShown, setSizeShown] = useState(false);
+  const { absolute_url, width, height } = mainImg;
 
   const aspectRatio = 128 / 160;
 
   const handleClick = () => {
-    if (product) {
-      sendToProduct();
+    if (!!sizes.length && !isSizeShown) {
+      setSizeShown(true);
+      return;
     }
+
+    if (!!sizes.length && selectedSize) {
+      sendToProduct(price, `${name}-${selectedSize}`);
+    } else {
+      sendToProduct(price, `${name}`);
+    }
+  };
+
+  let buttonText = "Buy now";
+
+  if (!!sizes.length && isSizeShown) {
+    buttonText = "Confirm size";
+  }
+
+  const handleOpenCloseDropdown = () => {
+    setHidden((prev) => !prev);
   };
   return (
     <StyledCard>
       <StyledImageWrapper>
+        {isSizeShown && !!sizes.length && (
+          <>
+            <StyledSizing />
+            <StyledDropdownWrapper>
+              <StyledDropdown>
+                <button onClick={handleOpenCloseDropdown}>
+                  {selectedSize || "Select a sizes"}
+                </button>
+                <DropdownMenu hidden={isHidden}>
+                  {sizes.map((size) => (
+                    <DropdownItem
+                      onClick={() => {
+                        setSelectedSize(size.size);
+                        setHidden(true);
+                      }}
+                    >
+                      {size.size}: {size.value}
+                    </DropdownItem>
+                  ))}
+                </DropdownMenu>
+              </StyledDropdown>
+            </StyledDropdownWrapper>
+          </>
+        )}
         <StyledImage
           width={width}
           height={height}
@@ -149,12 +240,22 @@ const Product = ({ name, price, mainImg, sendToProduct }) => {
       </StyledImageWrapper>
       <StyledTextWrapper>
         <StyledName>{name}</StyledName>
-        <StyledPrice>£{Number(price.high).toFixed(2)}</StyledPrice>
+        <StyledPrice>£{Number(price).toFixed(2)}</StyledPrice>
       </StyledTextWrapper>
-      {product && (
-        <StyledButton onClick={() => setProduct(null)}>No</StyledButton>
-      )}
-      <StyledButton onClick={handleClick}>Buy now</StyledButton>
+      <StyledButtonWrapper>
+        {isSizeShown && (
+          <StyledCancelButton
+            onClick={() => {
+              setSelectedSize(null);
+              setSizeShown(false);
+              setHidden(true);
+            }}
+          >
+            <img src={cancel} alt="cancel" />
+          </StyledCancelButton>
+        )}
+        <StyledButton onClick={handleClick}>{buttonText}</StyledButton>
+      </StyledButtonWrapper>
     </StyledCard>
   );
 };

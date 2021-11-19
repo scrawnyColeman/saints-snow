@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 
 import Product from "./Product";
 
-import stock from "../../stock.json";
+import stock from "../../stock-simplified.json";
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -13,11 +13,8 @@ const StyledWrapper = styled.div`
 `;
 
 const Products = () => {
-  const [param, setParam] = useState(null);
-  const sendToProduct = () => {
-    if (param) {
-      window.location.href = `https://trilo.us/saintssnow/?${param}`;
-    }
+  const sendToProduct = (amount, param) => {
+    window.location.href = `https://trilo.us/saintssnow/${amount}/?t=${param}`;
   };
   return (
     <StyledWrapper>
@@ -27,6 +24,7 @@ const Products = () => {
           name={item.name}
           price={item.price}
           mainImg={item.thumbnail}
+          sizes={item.sizes || []}
         />
       ))}
       <div style={{ height: "200px" }}></div>

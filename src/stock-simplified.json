@@ -1,0 +1,108 @@
+{
+  "data": [
+    {
+      "id": "11ec47307e69e324b53ac634eb3ab904",
+      "name": "Lighter",
+      "price": 1,
+      "thumbnail": {
+        "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p7_i1_w1136.png",
+        "width": 1136,
+        "height": 481
+      }
+    },
+    {
+      "id": "11ec4730665e6dfe9114be68adeb18ae",
+      "name": "Hip Flask",
+      "price": 10,
+      "thumbnail": {
+        "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p6_i1_w841.png",
+        "width": 841,
+        "height": 1280
+      }
+    },
+    {
+      "id": "11ec47304cc24a64ad159e65b29705f7",
+      "name": "Headband",
+      "price": 12,
+      "thumbnail": {
+        "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p5_i1_w946.png",
+        "width": 946,
+        "height": 753
+      }
+    },
+    {
+      "id": "11ec4730241ee4e6a5079e65b29705f7",
+      "name": "Bucket Hat",
+      "price": 15,
+      "thumbnail": {
+        "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p4_i1_w1280.png",
+        "width": 1280,
+        "height": 853
+      }
+    },
+    {
+      "id": "11ec47300874c4a4978ec2194d759a9a",
+      "name": "Long Sleeve Tee",
+      "sizes": [
+        {
+          "size": "S",
+          "value": "34/36"
+        },
+        {
+          "size": "M",
+          "value": "38/40"
+        },
+        {
+          "size": "L",
+          "value": "42/44"
+        },
+        {
+          "size": "XL",
+          "value": "46/48"
+        },
+        {
+          "size": "2XL",
+          "value": "50/52"
+        }
+      ],
+      "price": 17.5,
+      "thumbnail": {
+        "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p3_i2_w1500.jpeg",
+        "width": 1500,
+        "height": 1500
+      }
+    },
+    {
+      "id": "11ec472f8d89ef26a86dc634eb3ab904",
+      "name": "Hoodie",
+      "sizes": [
+        {
+          "size": "S",
+          "value": "34/36"
+        },
+        {
+          "size": "M",
+          "value": "38/40"
+        },
+        {
+          "size": "L",
+          "value": "42/44"
+        },
+        {
+          "size": "XL",
+          "value": "46/48"
+        },
+        {
+          "size": "2XL",
+          "value": "50/52"
+        }
+      ],
+      "price": 25,
+      "thumbnail": {
+        "absolute_url": "https://univerisity-of-st-andrews-snowsports.weebly.com/uploads/1/3/9/8/139873704/s449776521872491582_p2_i2_w546.jpeg",
+        "width": 546,
+        "height": 665
+      }
+    }
+  ]
+}
