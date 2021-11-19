@@ -10,7 +10,7 @@ const StyledHeader = styled.div`
 const Header = () => {
   return (
     <StyledHeader>
-      <img src={logo} width={160} />
+      <img src={logo} width={160} alt="St Andrews Snow" />
     </StyledHeader>
   );
 };

@@ -6,9 +6,9 @@ import Products from "./Products";
 
 const Routing = () => (
   <Switch>
-    <Route exact path="/item/:name" component={ProductPage} />
     <Route exact path={["/home", "/"]} component={Products} />
-    <Route exact path="/pagenotfound" component={PageNotFound} />
+    <Route path="/item/:name" component={ProductPage} />
+    <Route path="/pagenotfound" component={PageNotFound} />
     <Redirect to="/pagenotfound" />
   </Switch>
 );

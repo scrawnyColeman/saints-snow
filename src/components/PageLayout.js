@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Header from "./Header";
+import Footer from "./Footer";
 import Routing from "./Routing";
 
 const StyledContainer = styled.div`
@@ -19,6 +20,7 @@ const PageLayout = () => {
       <StyledContainer>
         <Routing />
       </StyledContainer>
+      <Footer />
     </>
   );
 };

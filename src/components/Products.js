@@ -20,6 +20,7 @@ const Products = () => {
           mainImg={item.thumbnail.data.absolute_url}
         />
       ))}
+      <div style={{ height: "200px" }}></div>
     </StyledWrapper>
   );
 };
