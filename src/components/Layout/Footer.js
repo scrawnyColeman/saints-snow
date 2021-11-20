@@ -8,7 +8,7 @@ const StyledFooter = styled.div`
 const Header = () => {
   return (
     <StyledFooter>
-      All items are <b>store pickup</b>. Collected at: Univerisity of St Andrews
+      All items are <b>store pickup</b>. Collected at: University of St Andrews
       Snowsports. University Park, St Andrews, SCT
     </StyledFooter>
   );
