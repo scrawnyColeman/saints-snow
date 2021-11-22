@@ -14,7 +14,7 @@ const StyledWrapper = styled.div`
 
 const Products = () => {
   const sendToProduct = (amount, param) => {
-    window.location.href = `https://trilo.us/saintssnow/${amount}/?t=${param}`;
+    window.open(`https://trilo.us/saintssnow/${amount}/?t=${param}`, "_tab");
   };
   return (
     <StyledWrapper>
